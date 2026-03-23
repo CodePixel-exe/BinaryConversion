@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.ikonli.javafx.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nclan.ac.spa.controllers.HomeController">
+    <top>
+        <HBox fx:id="titleBar" alignment="CENTER_RIGHT" spacing="10" style="-fx-background-color: #2d3436; -fx-padding: 5;">
+            <FontIcon iconColor="white" iconLiteral="fas-cat" iconSize="18" text="" />
+            <Label style="-fx-text-fill: white;" />
+            <Region HBox.hgrow="ALWAYS" />
+            <Button onAction="#minimizeWindow" styleClass="title-bar-button">
+                <graphic>
+                    <FontIcon iconColor="white" iconLiteral="fas-window-minimize" iconSize="12" />
+                </graphic>
+            </Button>
+
+            <Button onAction="#closeWindow" styleClass="title-bar-button-close">
+                <graphic>
+                    <FontIcon iconColor="white" iconLiteral="fas-times-circle" iconSize="14" />
+                </graphic>
+            </Button>
+        </HBox>
+    </top>
+
+    <left>
+        <VBox fx:id="leftMenu" prefWidth="200" spacing="15" style="-fx-background-color: #2d3436;">
+            <padding>
+                <Insets bottom="20" left="10" right="10" top="20" />
+            </padding>
+            <Label style="-fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 18;" text="Computer Science" />
+            <Separator />
+            <Button maxWidth="Infinity" onAction="#showConversion" styleClass="nav-button" text="Conversion" />
+            <Button fx:id="selectBitwise" maxWidth="Infinity" onAction="#showBitwiseLogic" styleClass="nav-button" text="Bitwise Logic" />
+            <Button maxWidth="Infinity" onAction="#showRepresentation" styleClass="nav-button" text="Ascii" />
+         <Button layoutX="20.0" layoutY="192.0" maxWidth="Infinity" onAction="#showRepresentation" styleClass="nav-button" text="AI" />
+            <Region VBox.vgrow="ALWAYS" />
+            <Button maxWidth="Infinity" onAction="#handleExit" style="-fx-background-color: #d63031;" text="Exit" />
+        </VBox>
+    </left>
+
+    <center>
+        <StackPane fx:id="contentArea" styleClass="activity-card">
+            <padding>
+                    <Insets right="10" />
+            </padding>
+            <Label text="Select an activity from the left menu" />
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+        </StackPane>
+    </center>
+   <bottom>
+      <Label fx:id="txtMessage" maxWidth="Infinity" styleClass="status-message" text="" BorderPane.alignment="CENTER" />
+   </bottom>
+
+    <right>
+        <Region prefWidth="10" styleClass="status-message" />
+    </right>
+
+</BorderPane>

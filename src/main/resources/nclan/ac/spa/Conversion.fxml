@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nclan.ac.spa.controllers.ConversionController">
+   <children>
+      <Label fx:id="decimalInputLbl" layoutX="82.0" layoutY="91.0" text="Decimal Number" />
+      <Label fx:id="decimalLbl" layoutX="439.0" layoutY="108.0" text="Decimal Number" />
+      <Label fx:id="binaryLbl" layoutX="444.0" layoutY="176.0" text="Binary Number" />
+      <Label fx:id="hexadecimalLbl" layoutX="427.0" layoutY="247.0" text="Hexadecimal Number" />
+      <TextField fx:id="decimalOutput" layoutX="409.0" layoutY="139.0" />
+      <TextField fx:id="decimalInput" layoutX="82.0" layoutY="116.0" />
+      <TextField fx:id="binaryOutput" layoutX="410.0" layoutY="206.0" />
+      <TextField fx:id="hexadecimalOutput" layoutX="409.0" layoutY="283.0" />
+      <Button fx:id="btnDecimalConversion" layoutX="82.0" layoutY="151.0" mnemonicParsing="false" onAction="#convertDecimal" text="Convert Decimal" />
+      <Text fx:id="title" layoutX="93.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number Conversion" textAlignment="CENTER" wrappingWidth="416.0">
+         <font>
+            <Font size="33.0" />
+         </font></Text>
+      <Polygon fx:id="cornerPoly" fill="#c2ff1f" layoutX="50.0" layoutY="-40.0" points="-50.0, 40.0, -50.0, 155.0, 43.0, 40.0" stroke="BLACK" strokeType="INSIDE" />
+      <TextField fx:id="binaryInput" layoutX="82.0" layoutY="318.0" />
+      <TextField fx:id="hexInput" layoutX="82.0" layoutY="218.0" />
+      <Button fx:id="hxButton" layoutX="82.0" layoutY="255.0" mnemonicParsing="false" onAction="#convertHex" text="Convert Hex" />
+      <Button fx:id="binButton" layoutX="80.0" layoutY="354.0" mnemonicParsing="false" onAction="#convertBinary" text="Convert Binary" />
+      <Label layoutX="82.0" layoutY="197.0" text="Hexadecimal Number" />
+      <Label layoutX="87.0" layoutY="295.0" text="Binary Number" />
+      <ImageView fx:id="conversionIcon" fitHeight="77.0" fitWidth="82.0" layoutX="486.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../conIcon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

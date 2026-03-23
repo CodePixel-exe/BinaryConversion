@@ -1,0 +1,17 @@
+base_knowledge.txtJ68L 47 Computer Science (SCQF level 7)
+Outcome 1. Perform calculations and conversions between number and logic systems (10 hours)
+Content and context for this unit. This unit serves as an introduction to computer science. We do not assume that learners
+have formal, prior knowledge of computer science. Nonetheless, they do need some prior experience of coding, such as that included in the Digital Skills unit at SCQF level 7.
+It is important that knowledge crossover is highlighted throughout the delivery of this unit, and that you provide real-world examples or tasks.
+Mathematical foundations. This foundational knowledge is demonstrable throughout the unit, and you should ensure
+that learners see real-world applications of the knowledge they are gaining.
+Number systems overview. You should ensure that mathematical and number systems topics focus on number bases
+with a historical and current relationship to computing and computer science — particularly
+base 2 (binary) and base 16 (hexadecimal). As well as introducing the theory, you should
+demonstrate these number systems via practical implementations throughout the unit; for
+example, the use of binaries in computer architecture, and the use of hexadecimal
+throughout the fetch-execute process.
+You should teach the conversion between number systems using multiple methods — such
+as positional notation and two’s complement — to minimise learners’ reliance on conversion
+tables.
+Boolean logic. As with number systems, you should ensure that you teach Boolean logic beyond theoretical knowledge. Introduce practical examples within programming and link the Boolean logic to selection and iteration principles to demonstrate practical, real-world applications.

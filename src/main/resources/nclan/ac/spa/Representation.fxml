@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nclan.ac.spa.controllers.RepresentationController">
+   <children>
+      <TextField fx:id="conversionInput" layoutX="226.0" layoutY="98.0" promptText="Type in a character" />
+      <RadioButton fx:id="hexRb" layoutX="226.0" layoutY="135.0" mnemonicParsing="false" text="Convert to Hex">
+         <toggleGroup>
+            <ToggleGroup fx:id="conversiongroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="decimalRb" layoutX="226.0" layoutY="167.0" mnemonicParsing="false" text="Convert to Decimal" toggleGroup="$conversiongroup" />
+      <Button fx:id="convertBtn" layoutX="226.0" layoutY="200.0" mnemonicParsing="false" onAction="#ASCIIConverter" prefHeight="25.0" prefWidth="149.0" text="Convert" />
+      <Label layoutX="226.0" layoutY="74.0" text="Input" />
+      <Text layoutX="159.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASCII Character Conversion">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="conversionOutput" layoutX="226.0" layoutY="301.0" />
+      <Label layoutX="226.0" layoutY="275.0" text="Output" />
+   </children>
+</AnchorPane>

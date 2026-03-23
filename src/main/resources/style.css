@@ -1,0 +1,94 @@
+/* The root container - consistent background */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* A modern, flat button style */
+.button {
+    -fx-background-color: #2d3436;
+    -fx-text-fill: white;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0984e3;
+}
+
+/* This matches the styleClass="nav-button" in your FXML */
+.nav-button {
+    -fx-background-color: #2d3436;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER;
+    -fx-padding: 10 15 10 15;
+}
+
+.nav-button:hover {
+    /*-fx-background-color: #0984e3; Changes colour when hovered */
+    -fx-background-color: #3ADE6B;
+}
+
+.status-message {
+    -fx-background-color: #2d3436;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-alignment: CENTER;
+}
+
+/* Header text style for screen titles */
+.header-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d3436;
+}
+
+.placeholder-text {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d3436;
+}
+
+/* Card-like container for student activities */
+.activity-card {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-padding: 20;
+    -fx-background-radius: 8;
+}
+
+/* General title bar button style */
+.title-bar-button {
+    -fx-background-color: transparent;
+    -fx-padding: 5 10 5 10;
+    -fx-background-radius: 0;
+}
+
+.title-bar-button:hover {
+    -fx-background-color: #4a4a4a; /* Subtle grey hover */
+}
+
+/* Specific styling for the close button (Standard Red hover) */
+.title-bar-button-close {
+    -fx-background-color: transparent;
+    -fx-padding: 5 10 5 10;
+    -fx-background-radius: 0;
+}
+
+.title-bar-button-close:hover {
+    -fx-background-color: #e81123; /* Windows-style red */
+}
+
+.title-bar-button-close:hover .ikonli-font-icon {
+    -fx-icon-color: white;
+}
+
+/* The style for the button representing the current scene */
+.nav-button.active {
+    -fx-background-color: #0984e3; /* A bright blue to match your theme */
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 0 4; /* Adds a small stripe on the left */
+}
