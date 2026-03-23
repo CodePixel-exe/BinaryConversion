@@ -130,7 +130,7 @@ public class AIGemini {
                 throw new IllegalArgumentException("File not found: " + fileName);
             }
 
-            // Read the InputStream into a String using a Scanner
+            // Read the InputStream into a String using a Scanner yes
             try (Scanner scanner = new Scanner(is, StandardCharsets.UTF_8)) {
                 return scanner.useDelimiter("\\A").next(); // \A means "beginning of input" (read all)
             }
