@@ -35,7 +35,7 @@
             <Button maxWidth="Infinity" onAction="#showConversion" styleClass="nav-button" text="Conversion" />
             <Button fx:id="selectBitwise" maxWidth="Infinity" onAction="#showBitwiseLogic" styleClass="nav-button" text="Bitwise Logic" />
             <Button maxWidth="Infinity" onAction="#showRepresentation" styleClass="nav-button" text="Ascii" />
-         <Button layoutX="20.0" layoutY="192.0" maxWidth="Infinity" onAction="#showRepresentation" styleClass="nav-button" text="AI" />
+         <Button layoutX="20.0" layoutY="192.0" maxWidth="Infinity" onAction="#showAI" styleClass="nav-button" text="AI" />
             <Region VBox.vgrow="ALWAYS" />
             <Button maxWidth="Infinity" onAction="#handleExit" style="-fx-background-color: #d63031;" text="Exit" />
         </VBox>

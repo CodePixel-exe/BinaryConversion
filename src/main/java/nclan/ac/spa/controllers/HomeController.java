@@ -89,4 +89,8 @@ public class HomeController {
         SceneSwitcher.changeCenter("/nclan/ac/spa/Representation.fxml");
         highlightButton((Button) actionEvent.getSource());
     }
+    public void showAI(ActionEvent actionEvent){
+        SceneSwitcher.changeCenter("/nclan/ac/spa/AiChat.fxml");
+        highlightButton((Button) actionEvent.getSource());
+    }
 }
