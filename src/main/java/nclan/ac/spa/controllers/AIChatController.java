@@ -20,20 +20,6 @@ public class AIChatController {
     private TextField inputAI;
 
     public void askAI(ActionEvent actionEvent){
-        try{
-            String userInput = inputAI.getText();
-
-
-
-
-
-
-            aiOutput.setText(aiResult);
-        } catch (Exception e) {
-            SceneSwitcher.showErrorDialog("Please enter text to ask!");
-        }
-
-
 
     }
 }
