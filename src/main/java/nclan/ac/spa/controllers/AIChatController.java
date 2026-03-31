@@ -21,5 +21,9 @@ public class AIChatController {
 
     public void askAI(ActionEvent actionEvent){
 
-    }
+            AIGemini myAI = new AIGemini();
+            String userInput = inputAI.getText();
+            String aiResponse = myAI.aiAnswer(userInput);
+            aiOutput.setText(aiResponse);
+}
 }
