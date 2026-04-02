@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BinaryConversion:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98b820c1-2336-4198-beab-f050a89813e5" name="Changes" comment="Update: Added AI logic, functionality and guardrails as well as knowledge base.">
+      <change afterPath="$PROJECT_DIR$/.idea/IntelliLang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BinaryConversion_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nclan/ac/spa/appLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nclan/ac/spa/controllers/AIChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nclan/ac/spa/controllers/AIChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nclan/ac/cs/topic5/AIGemini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nclan/ac/cs/topic5/AIGemini.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nclan/ac/spa/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nclan/ac/spa/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/guardrails.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/guardrails.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +98,7 @@
   "keyToString": {
     "Application.AIGemini.executor": "Run",
     "Application.MainApp.executor": "Run",
+    "Application.appLauncher.executor": "Run",
     "Application.conversion.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -94,6 +107,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
@@ -105,7 +119,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -116,6 +130,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\30105029\OneDrive - New College Lanarkshire\coding projects\BinaryConversion\out\artifacts\BinaryConversion_jar" />
       <recent name="Y:\30105029\OneDrive - New College Lanarkshire\coding projects\BinaryConversion-master\src\main\resources" />
       <recent name="Y:\30105029\OneDrive - New College Lanarkshire\coding projects\BinaryConversion-master\src\main\java\nclan\ac\cs\topic5" />
       <recent name="C:\Users\30105029\OneDrive - New College Lanarkshire\College\HNC Computing NextGen\Part 2\Computer Science\Coding stuff\csApp\src\main\resources\nclan\ac\spa" />

@@ -26,7 +26,7 @@ public class MainApp extends Application {
 
             scene.getStylesheets().add(cssPath);
             stage.setScene(scene);
-            stage.setTitle("Single Page Application!");
+            stage.setTitle("Computer Science App");
             stage.setScene(scene);
             stage.show();
 

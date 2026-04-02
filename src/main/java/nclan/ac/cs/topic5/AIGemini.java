@@ -27,7 +27,7 @@ import java.util.Scanner;
 public class AIGemini {
     public static void main(String[] args) {
         AIGemini myApp = new AIGemini();
-        myApp.runTest(); //i guess bro
+        myApp.runTest();
     }
 
     // Contextual configuration for the responses
@@ -75,7 +75,7 @@ public class AIGemini {
     /**
      * Exercise the code.
      */
-    private void runTest() {
+    public void runTest() {
         System.out.println("Hello, Gemini AI!");
         System.out.println("You have 3 questions");
         for(int i = 0; i < 3; i++) {
@@ -138,5 +138,9 @@ public class AIGemini {
             e.printStackTrace();
             return "";
         }
+    }
+    public String aiAnswer(String question){
+        String ans = askQuestion(question);
+        return ans;
     }
 }
